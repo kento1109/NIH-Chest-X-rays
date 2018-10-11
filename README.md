@@ -48,12 +48,14 @@
 - Bottleneck features(InceptionV3)
 - Fine-tuning(DenseNet)
 - Fine-tuning(InceptionV3)
+
 は100%に近い精度で識別できていることが分かる。  
 一方、VGG16での転移学習はうまく学習できなかった。
 
 一方、評価データに関しては、学習が進んでも損失が小さくなることは確認できなかった。 精度に関しては、
 - Bottleneck features(DenseNet)
 - Bottleneck features(InceptionV3)
+
 が75~80%近くと最も高精度の予測となった。  
 
 ## 考察
